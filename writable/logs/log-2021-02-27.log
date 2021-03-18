@@ -1,0 +1,20 @@
+CRITICAL - 2021-02-27 02:54:23 --> syntax error, unexpected '{'
+#0 /home/friday/wamp/Framework2.1/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/friday/wa...')
+#1 /home/friday/wamp/Framework2.1/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/friday/wamp/Framework2.1/system/CodeIgniter.php(894): class_exists('\\App\\Controller...', true)
+#5 /home/friday/wamp/Framework2.1/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->startController()
+#6 /home/friday/wamp/Framework2.1/system/CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/friday/wamp/Framework2.1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-27 02:54:25 --> syntax error, unexpected '{'
+#0 /home/friday/wamp/Framework2.1/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/friday/wa...')
+#1 /home/friday/wamp/Framework2.1/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/friday/wamp/Framework2.1/system/CodeIgniter.php(894): class_exists('\\App\\Controller...', true)
+#5 /home/friday/wamp/Framework2.1/system/CodeIgniter.php(418): CodeIgniter\CodeIgniter->startController()
+#6 /home/friday/wamp/Framework2.1/system/CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/friday/wamp/Framework2.1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

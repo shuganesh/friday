@@ -1,0 +1,51 @@
+ERROR - 2021-02-26 11:32:04 --> mysqli_sql_exception: No database selected in /home/friday/wamp/Framework2.1/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/friday/wamp/Framework2.1/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /home/friday/wamp/Framework2.1/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/friday/wamp/Framework2.1/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/friday/wamp/Framework2.1/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/friday/wamp/Framework2.1/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/friday/wamp/Framework2.1/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/friday/wamp/Framework2.1/app/Models/SiteModel.php(19): CodeIgniter\BaseModel->findAll()
+#7 /home/friday/wamp/Framework2.1/app/Controllers/Admin/Login.php(12): App\Models\SiteModel->GetSite('sitename')
+#8 /home/friday/wamp/Framework2.1/system/CodeIgniter.php(937): App\Controllers\Admin\Login->index()
+#9 /home/friday/wamp/Framework2.1/system/CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#10 /home/friday/wamp/Framework2.1/system/CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/friday/wamp/Framework2.1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-02-26 11:32:04 --> No database selected
+#0 /home/friday/wamp/Framework2.1/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /home/friday/wamp/Framework2.1/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/friday/wamp/Framework2.1/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/friday/wamp/Framework2.1/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/friday/wamp/Framework2.1/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/friday/wamp/Framework2.1/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/friday/wamp/Framework2.1/app/Models/SiteModel.php(19): CodeIgniter\BaseModel->findAll()
+#7 /home/friday/wamp/Framework2.1/app/Controllers/Admin/Login.php(12): App\Models\SiteModel->GetSite('sitename')
+#8 /home/friday/wamp/Framework2.1/system/CodeIgniter.php(937): App\Controllers\Admin\Login->index()
+#9 /home/friday/wamp/Framework2.1/system/CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#10 /home/friday/wamp/Framework2.1/system/CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/friday/wamp/Framework2.1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-02-26 11:55:01 --> mysqli_sql_exception: Variable 'character_set_client' can't be set to the value of 'NULL' in /home/friday/wamp/Framework2.1/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/friday/wamp/Framework2.1/system/Database/MySQLi/Connection.php(314): mysqli->query('\r\n/*!40101 SET ...')
+#1 /home/friday/wamp/Framework2.1/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('\r\n/*!40101 SET ...')
+#2 /home/friday/wamp/Framework2.1/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n/*!40101 SET ...')
+#3 /home/friday/wamp/Framework2.1/app/Controllers/Install.php(67): CodeIgniter\Database\BaseConnection->query('\r\n/*!40101 SET ...')
+#4 /home/friday/wamp/Framework2.1/system/CodeIgniter.php(937): App\Controllers\Install->index()
+#5 /home/friday/wamp/Framework2.1/system/CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Install))
+#6 /home/friday/wamp/Framework2.1/system/CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/friday/wamp/Framework2.1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-02-26 11:55:01 --> mysqli_sql_exception: Variable 'collation_connection' can't be set to the value of 'NULL' in /home/friday/wamp/Framework2.1/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/friday/wamp/Framework2.1/system/Database/MySQLi/Connection.php(314): mysqli->query('/*!40101 SET CO...')
+#1 /home/friday/wamp/Framework2.1/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('/*!40101 SET CO...')
+#2 /home/friday/wamp/Framework2.1/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('/*!40101 SET CO...')
+#3 /home/friday/wamp/Framework2.1/app/Controllers/Install.php(67): CodeIgniter\Database\BaseConnection->query('/*!40101 SET CO...')
+#4 /home/friday/wamp/Framework2.1/system/CodeIgniter.php(937): App\Controllers\Install->index()
+#5 /home/friday/wamp/Framework2.1/system/CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Install))
+#6 /home/friday/wamp/Framework2.1/system/CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/friday/wamp/Framework2.1/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

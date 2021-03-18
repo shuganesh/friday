@@ -1,0 +1,93 @@
+CRITICAL - 2021-03-18 13:10:31 --> syntax error, unexpected 'if' (T_IF)
+#0 D:\Wamp\www\Friday\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('process/cloneFi...')
+#1 D:\Wamp\www\Friday\system\CodeIgniter.php(817): CodeIgniter\Router\Router->handle('process/cloneFi...')
+#2 D:\Wamp\www\Friday\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Wamp\www\Friday\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Wamp\www\Friday\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 13:10:38 --> syntax error, unexpected 'if' (T_IF)
+#0 D:\Wamp\www\Friday\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('process/cloneFi...')
+#1 D:\Wamp\www\Friday\system\CodeIgniter.php(817): CodeIgniter\Router\Router->handle('process/cloneFi...')
+#2 D:\Wamp\www\Friday\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Wamp\www\Friday\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Wamp\www\Friday\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 14:39:09 --> syntax error, unexpected '}'
+#0 D:\Wamp\www\Friday\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('process/checkLi...')
+#1 D:\Wamp\www\Friday\system\CodeIgniter.php(817): CodeIgniter\Router\Router->handle('process/checkLi...')
+#2 D:\Wamp\www\Friday\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Wamp\www\Friday\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Wamp\www\Friday\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 14:41:39 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-18 14:41:56 --> Undefined property: App\Controllers\Process::$user
+#0 D:\Wamp\www\Friday\app\Controllers\Process.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Wamp\\www\\Fri...', 65, Array)
+#1 D:\Wamp\www\Friday\system\CodeIgniter.php(937): App\Controllers\Process->checkLicense('hvuyavuyhvsDCUH...', 'shuganesh716@gm...')
+#2 D:\Wamp\www\Friday\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process))
+#3 D:\Wamp\www\Friday\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Wamp\www\Friday\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 14:47:15 --> Undefined variable: statusMessage
+#0 D:\Wamp\www\Friday\app\Controllers\Process.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Wamp\\www\\Fri...', 60, Array)
+#1 D:\Wamp\www\Friday\system\CodeIgniter.php(937): App\Controllers\Process->checkLicense('hvuyavuyhvsDCUH...', 'shuganesh716@gm...')
+#2 D:\Wamp\www\Friday\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process))
+#3 D:\Wamp\www\Friday\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Wamp\www\Friday\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 14:50:38 --> syntax error, unexpected '}'
+#0 D:\Wamp\www\Friday\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('process/checkLi...')
+#1 D:\Wamp\www\Friday\system\CodeIgniter.php(817): CodeIgniter\Router\Router->handle('process/checkLi...')
+#2 D:\Wamp\www\Friday\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Wamp\www\Friday\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Wamp\www\Friday\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 14:50:55 --> syntax error, unexpected '}'
+#0 D:\Wamp\www\Friday\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('process/checkLi...')
+#1 D:\Wamp\www\Friday\system\CodeIgniter.php(817): CodeIgniter\Router\Router->handle('process/checkLi...')
+#2 D:\Wamp\www\Friday\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Wamp\www\Friday\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Wamp\www\Friday\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 14:51:14 --> syntax error, unexpected '}'
+#0 D:\Wamp\www\Friday\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('process/checkLi...')
+#1 D:\Wamp\www\Friday\system\CodeIgniter.php(817): CodeIgniter\Router\Router->handle('process/checkLi...')
+#2 D:\Wamp\www\Friday\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Wamp\www\Friday\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Wamp\www\Friday\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 14:52:39 --> syntax error, unexpected '}'
+#0 D:\Wamp\www\Friday\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('process/checkLi...')
+#1 D:\Wamp\www\Friday\system\CodeIgniter.php(817): CodeIgniter\Router\Router->handle('process/checkLi...')
+#2 D:\Wamp\www\Friday\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Wamp\www\Friday\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Wamp\www\Friday\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 14:52:52 --> syntax error, unexpected '}'
+#0 D:\Wamp\www\Friday\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('process/checkLi...')
+#1 D:\Wamp\www\Friday\system\CodeIgniter.php(817): CodeIgniter\Router\Router->handle('process/checkLi...')
+#2 D:\Wamp\www\Friday\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Wamp\www\Friday\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Wamp\www\Friday\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 14:55:29 --> syntax error, unexpected '}'
+#0 D:\Wamp\www\Friday\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('process/checkLi...')
+#1 D:\Wamp\www\Friday\system\CodeIgniter.php(817): CodeIgniter\Router\Router->handle('process/checkLi...')
+#2 D:\Wamp\www\Friday\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Wamp\www\Friday\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Wamp\www\Friday\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 14:55:54 --> syntax error, unexpected '}'
+#0 D:\Wamp\www\Friday\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('process/checkLi...')
+#1 D:\Wamp\www\Friday\system\CodeIgniter.php(817): CodeIgniter\Router\Router->handle('process/checkLi...')
+#2 D:\Wamp\www\Friday\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Wamp\www\Friday\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Wamp\www\Friday\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-18 14:56:06 --> Too few arguments to function App\Controllers\Process::checkLicense(), 2 passed in D:\Wamp\www\Friday\system\CodeIgniter.php on line 937 and exactly 3 expected
+#0 D:\Wamp\www\Friday\system\CodeIgniter.php(937): App\Controllers\Process->checkLicense('hvuyavuyhvsDCUH...', 'shuganesh716@gm...')
+#1 D:\Wamp\www\Friday\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Process))
+#2 D:\Wamp\www\Friday\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Wamp\www\Friday\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
