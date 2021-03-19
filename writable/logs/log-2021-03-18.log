@@ -91,3 +91,12 @@ CRITICAL - 2021-03-18 14:56:06 --> Too few arguments to function App\Controllers
 #2 D:\Wamp\www\Friday\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 D:\Wamp\www\Friday\public\index.php(44): CodeIgniter\CodeIgniter->run()
 #4 {main}
+CRITICAL - 2021-03-18 18:31:26 --> Invalid file: admin/settings/settings/.php
+#0 D:\Wamp\www\Friday\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/settings/...')
+#1 D:\Wamp\www\Friday\system\Common.php(1217): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#2 D:\Wamp\www\Friday\app\Controllers\admin\Dashboard.php(46): view('admin/settings/...', Array)
+#3 D:\Wamp\www\Friday\system\CodeIgniter.php(937): App\Controllers\Admin\Dashboard->settings()
+#4 D:\Wamp\www\Friday\system\CodeIgniter.php(433): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#5 D:\Wamp\www\Friday\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Wamp\www\Friday\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

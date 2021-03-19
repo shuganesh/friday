@@ -2,7 +2,7 @@
 <html>
 <head>
 	<?= view('meta') ?>
-	<title>Github | <?= $sitename ?></title>
+	<title>Settings | <?= $sitename ?></title>
 	<link rel="shortcut icon" type="image/png" href="<?= $sitelogo ?>"/>
 
 	<!-- Bootsrap -->
@@ -37,7 +37,7 @@
 					<div class="col col-md-12 m-0 p-0">
 						<div class="row m-0 p-0">
 							<div class="col col-md-6 m-0 p-0">
-								<h3>GitHub</h3>
+								<h3>Settings</h3>
 								<p>All systems are running smoothly! You have <a href="<?= base_url("admin/alerts") ?>"><?= $this->notification->Count($this->session->get('id')) ?> unread alerts</a></p>
 							</div>
 						</div>
@@ -45,9 +45,21 @@
 					<div class="col col-md-12 mt-4 m-0 p-0">
 						<div class="row m-0 p-0">
 							<div class="col col-md-12 p-4 rounded-20 shadow-sm extension">
-								<h4 class="mb-3">Git Hub Repositories</h4>
+								<h4 class="mb-3">Settings</h4>
 								<div class="col col-md-12 m-0 p-0">
-									<div class="row m-0 p-0" id="opensource-projects">
+									<div class="row gx-2">
+										<div class="col col-md-6 m-0 p-0">
+											<div class="form-floating mb-3">
+											  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" value="<?= $this->site->GetSite('adminmail') ?>">
+											  <label for="floatingInput">Email address</label>
+											</div>
+										</div>
+										<div class="col col-md-6 m-0 p-0">
+											<div class="form-floating mb-3">
+											  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" value="<?= $this->site->GetSite('adminphone') ?>">
+											  <label for="floatingInput">Email address</label>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -75,12 +87,4 @@
 <script src="<?= base_url() ?>/node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
 
 <script src="<?= base_url() ?>/assets/javascript/git.js" type="text/javascript"></script>
-<script type="text/javascript">
-  $(function() {
-    loadRepositories("<?= $this->site->GetSite('gitToken') ?>");
-  });
-  </script>
-
-  <script type="module">
-</script>
 </html>

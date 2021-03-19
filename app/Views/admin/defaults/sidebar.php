@@ -9,6 +9,7 @@
 	$uri = current_url(true);
 	$dashboard = "";
 	$github = "";
+	$settings = "";
 
 	?>
 
@@ -42,6 +43,22 @@
 							</div>
 							<div class="col-md-2 m-0 p-0 title">
 								GitHub
+							</div>
+						</div>
+					</div>
+				</a>
+			</li>
+
+			<?php if ($uri->getSegment(1) == 'admin' AND $uri->getSegment(2) == 'settings') { $settings = 'active';} ?>
+			<li class="nav-item">
+				<a class="nav-link <?= $settings ?> ps-4 p-2" aria-current="page" href="<?= base_url('admin/settings') ?>">
+					<div class="col-md-12 m-0 p-0">
+						<div class="row m-0 p-0">
+							<div class="col-md-2 m-0 p-0 icon">
+								<i class="fas fa-cog"></i>
+							</div>
+							<div class="col-md-2 m-0 p-0 title">
+								Settings
 							</div>
 						</div>
 					</div>

@@ -1,11 +1,11 @@
 
 function loadRepositories(token2) {
 
-  const token = 'd616c04f1b177c9ce2bce60dd4ffc4a72072ff4c';
+  // var token = token2;
 
   fetch('https://api.github.com/user/repos', {
     headers: {
-      Authorization: `token ${token}`
+      Authorization: `token ${token2}`
     }
   }).then(res => res.json()).then(json => loadRepo(json));
 

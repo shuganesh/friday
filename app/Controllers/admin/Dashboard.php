@@ -37,6 +37,15 @@ class Dashboard extends \App\Controllers\BaseController
 		return view('admin/git/git', $data);
 	}
 
+	public function settings()
+	{
+		$data['sitename'] = $this->site->GetSite('sitename');
+		$data['sitelogo'] = base_url($this->site->GetSite('icon'));
+		$data['sysInfo'] = $this->GetCPU("memusage");
+		$data['virtualHost'] = $this->check_virtualhost();
+		return view('admin/settings/settings', $data);
+	}
+
 	public function GetCPU()
 	{
 		exec( 'systeminfo', $output );

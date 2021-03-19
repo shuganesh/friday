@@ -37,6 +37,7 @@ $routes->get('/', 'Login::index');
 
 $routes->get('/admin', 'Login::index');
 $routes->get('/admin/github', 'Admin\Dashboard::git');
+$routes->get('/admin/settings', 'Admin\Dashboard::settings');
 
 /*
  * --------------------------------------------------------------------
